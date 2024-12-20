@@ -35,7 +35,7 @@ Follow the steps below to set up and run the application on your local machine:
 ### **1. Clone the Repository**
 
 ```bash
-git clone [https://github.com/jaantrai12/Drosophila_Classification.git](https://github.com/jayantrai12/Drosophila_Classification)
+git clone https://github.com/jayantrai12/Drosophila_Classification
 cd real-time-drosophila-detection
 ```
 
