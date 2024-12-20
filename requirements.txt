@@ -1,0 +1,33 @@
+# TensorFlow and Keras (for ResNet50, InceptionV3, MobileNetV2, ResNet18)
+tensorflow==2.12.0
+keras==2.12.0
+
+# Optimizer
+adam==0.10.2
+
+# Image Data Generator and preprocessing utilities
+opencv-python==4.5.4.60
+Pillow==9.3.0
+
+# Model-Specific Requirements
+# ResNet50, InceptionV3, MobileNetV2
+numpy==1.22.4
+matplotlib==3.7.1
+seaborn==0.12.2
+scikit-learn==1.2.0
+
+# PyTorch and Detectron2
+torch==2.4.0
+torchvision==0.15.0
+detectron2==0.6
+fvcore==0.1.5.post20221215
+
+# YOLOv8
+ultralytics==8.0.100
+
+# NVIDIA/CUDA for GPU acceleration
+# Ensure CUDA compatibility for PyTorch and Detectron2
+cuda-python==11.8.2
+
+# Miscellaneous
+os-sys==2.1.5
