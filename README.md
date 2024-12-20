@@ -1,6 +1,6 @@
 # Real-Time Drosophila Detection App
 
-Welcome to the **Real-Time Drosophila Detection App**! This repository provides real-time detection of male and female Drosophila (fruit flies) using state-of-the-art deep learning models. Models used include **ResNet50**, **ResNet18**, **InceptionV3**, **MobileNet**, **Detectron2**, and **YOLOv8**. Additionally, an APK file has been created using a **Streamlit app** for easy accessibility.
+Welcome to the **Real-Time Drosophila Detection App**! This repository provides real-time detection of male and female Drosophila (fruit flies) using state-of-the-art deep learning models. Models used include **ResNet50**, **ResNet18**, **InceptionV3**, **MobileNet**, **Detectron2**, and **YOLOv8**. Additionally, an APK file and a **Streamlit app** have been created for easy accessibility and real-time interaction.
 
 ---
 
@@ -8,22 +8,23 @@ Welcome to the **Real-Time Drosophila Detection App**! This repository provides 
 
 - **Multi-Model Integration:** Detection using various models including ResNet, Inception, MobileNet, YOLOv8, and Detectron2.
 - **Real-Time Detection:** Leverage a webcam for detecting Drosophila in real time.
-- **APK Integration:** User-friendly APK for detection via a mobile interface.
+- **APK and Web Integration:** User-friendly APK for mobile detection and a Streamlit-based web app.
 - **Saved Models:** Pre-trained models provided for quick deployment.
 - **Interactive Interface:** Streamlit app with features for live video detection, image capture, and confidence threshold adjustment.
 
 ---
 
-## 📚 Table of Contents
+## 📑 Table of Contents
 
 - [🚀 Features](#-features)
-- [🛠️ Installation](#️-installation)
-- [⚙️ Usage](#️-usage)
+- [🛠️ Installation](#-installation)
+- [⚙️ Usage](#-usage)
 - [📦 Dependencies](#-dependencies)
 - [🤖 Model Information](#-model-information)
 - [📄 License](#-license)
-- [📫 Contact](#-contact)
+- [📧 Contact](#-contact)
 - [🙏 Acknowledgments](#-acknowledgments)
+- [📊 Future Improvements](#-future-improvements)
 
 ---
 
@@ -38,17 +39,35 @@ git clone https://github.com/your-username/real-time-drosophila-detection.git
 cd real-time-drosophila-detection
 ```
 
-### **2. Install Dependencies**
+### **2. Create a Virtual Environment**
 
-Create a virtual environment and install the required libraries:
+#### Using Python's `venv`:
+
+Create a virtual environment to manage dependencies:
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+#### Using Conda (Linux):
+
+Create and activate a Conda environment:
+
+```bash
+conda create -n drosophila_detection python=3.8 -y
+conda activate drosophila_detection
+```
+
+### **3. Install Dependencies**
+
+Install the required libraries from `requirements.txt`:
+
+```bash
 pip install -r requirements.txt
 ```
 
-### **3. Install Detectron2**
+### **4. Install Detectron2**
 
 Detectron2 requires additional setup based on your system and CUDA version. Refer to the [Detectron2 Installation Guide](https://detectron2.readthedocs.io/en/latest/tutorials/install.html).
 
@@ -58,9 +77,9 @@ For example:
 pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu113/torch1.10/index.html
 ```
 
-### **4. Verify Saved Models**
+### **5. Verify Saved Models**
 
-Ensure all saved models are downloaded from the repository’s [Releases](https://github.com/your-username/real-time-drosophila-detection/releases) section.
+In the Releases section, you will find the saved models, which can be directly downloaded and used without additional placement requirements. The models are pre-configured and ready to use without additional placement requirements.
 
 ---
 
@@ -68,13 +87,17 @@ Ensure all saved models are downloaded from the repository’s [Releases](https:
 
 ### **1. Run the Streamlit App**
 
+To start the Streamlit app for real-time detection:
+
 ```bash
 streamlit run app.py
 ```
 
+This will open a local web interface for real-time Drosophila detection.
+
 ### **2. Use the APK File**
 
-Install the APK file provided in the repository’s [Releases](https://github.com/your-username/real-time-drosophila-detection/releases) section on your Android device and follow the instructions in the app.
+The APK file is available for direct download and installation on your Android device. The app is designed for seamless real-time detection. Follow the in-app instructions to perform real-time detection.
 
 ---
 
@@ -83,17 +106,17 @@ Install the APK file provided in the repository’s [Releases](https://github.co
 The following libraries are required to run this application:
 
 - **Python**: >= 3.8
-- **Streamlit**: Interactive web framework.
+- **TensorFlow**: Deep learning framework for ResNet, Inception, and MobileNet models.
+- **Streamlit**: Interactive web framework for the app.
 - **OpenCV**: Image processing and real-time detection.
 - **NumPy**: Numerical computing.
-- **PyTorch**: Deep learning framework.
+- **PyTorch**: Deep learning framework for Detectron2.
 - **Torchvision**: Models and image utilities for PyTorch.
 - **Detectron2**: Object detection and segmentation library.
-- **Streamlit-WeRTC**: Real-time video and audio streaming.
-- **Pillow**: Image processing library.
-- **YOLOv8**: Object detection and tracking.
+- **Ultralytics**: YOLOv8 framework.
+- **Matplotlib & Seaborn**: Visualization libraries.
 
-Refer to `requirements.txt` for the complete list.
+Refer to `requirements.txt` for the complete list of dependencies and their versions.
 
 ---
 
@@ -119,12 +142,12 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 📫 Contact
+## 📧 Contact
 
 For any questions or suggestions, feel free to reach out:
 
-- **GitHub:** [YourUsername](https://github.com/your-username)
-- **Email:** your.email@example.com
+- **GitHub:** [jayantrai12](https://github.com/jayantrai12)
+- **Email:** jayantrai7500@gmail.com
 
 ---
 
@@ -139,7 +162,7 @@ Special thanks to:
 
 ---
 
-## 📈 Future Improvements
+## 📊 Future Improvements
 
 - Expand detection to include additional Drosophila species or stages.
 - Integrate new lightweight models for enhanced mobile performance.
@@ -149,3 +172,4 @@ Special thanks to:
 ---
 
 Happy Detecting!
+
