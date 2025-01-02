@@ -132,7 +132,7 @@ Refer to `requirements.txt` for the complete list of dependencies and their vers
 
 ### **Saved Models**
 
-Pre-trained models are available in the `saved_models` folder or via the repository’s [Releases](https://github.com/your-username/real-time-drosophila-detection/releases).
+Pre-trained models are available in the `saved_models` folder or via the repository’s [Releases](https://github.com/jayantrai12/Drosophila_Classification/releases/tag/Saved_Models).
 
 ---
 
@@ -158,7 +158,7 @@ Special thanks to:
 - **Detectron2:** Facebook AI Research.
 - **Streamlit:** Interactive web app framework.
 - **YOLOv8:** Ultralytics for their high-performance detection model.
-- **Dr. Ishaan Gupta:** For mentorship and guidance.
+- **[Dr. Ishaan Gupta](https://beb.iitd.ac.in/ishaan.html):** For mentorship and guidance.
 
 ---
 
