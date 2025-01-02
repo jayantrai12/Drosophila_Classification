@@ -164,7 +164,7 @@ Special thanks to:
 
 ## 📊 Future Improvements
 
-- Expand detection to include additional Drosophila species or stages.
+- Expand detection to include additional Classification of Vergin vs non Vergin Drosophila.
 - Integrate new lightweight models for enhanced mobile performance.
 - Deploy the app on cloud platforms for broader accessibility.
 - Optimize inference speed and latency.
