@@ -89,7 +89,11 @@ To detect Drosophila from an image:
 ```bash
 python drosophila_detector.py --image path/to/your/image.jpg
 ```
-To detect Drosophila from an image:
+To detect Drosophila from an image folder:
+```bash
+python drosophila_detector.py --folder path/to/your/image_folder
+```
+To detect Drosophila from an image folder:
 ```bash
 python drosophila_detector.py --folder path/to/your/image_folder
 ```
