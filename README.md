@@ -84,6 +84,7 @@ In the Releases section, you will find the saved models, which can be directly d
 ---
 
 ## ⚙️ Usage
+### For Using From Command Line
 
 ### **1. Run the Streamlit App**
 
