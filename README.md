@@ -84,19 +84,27 @@ In the Releases section, you will find the saved models, which can be directly d
 ---
 
 ## ⚙️ Usage
+
 ### For Using From Command Line
+
+First download the saved_model from the Release, then open drosophila_detector.py and change the model path and output path to where you want to save the output. 
+
 To detect Drosophila from an image:
+
 ```bash
+
 python drosophila_detector.py --image path/to/your/image.jpg
+
 ```
+
 To detect Drosophila from an image folder:
+
 ```bash
+
 python drosophila_detector.py --folder path/to/your/image_folder
+
 ```
-To detect Drosophila from an image folder:
-```bash
-python drosophila_detector.py --folder path/to/your/image_folder
-```
+
 ### **1. Run the Streamlit App**
 
 To start the Streamlit app for real-time detection:
