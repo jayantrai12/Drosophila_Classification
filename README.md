@@ -85,6 +85,11 @@ In the Releases section, you will find the saved models, which can be directly d
 
 ## ⚙️ Usage
 
+1️⃣ Install Required Dependencies
+
+```bash
+pip install ultralytics opencv-python numpy tqdm
+```
 ### For Using From Command Line
 
 First download the saved_model from the Release, then open drosophila_detector.py and change the model path and output path to where you want to save the output. 
